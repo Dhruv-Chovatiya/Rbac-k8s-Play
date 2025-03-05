@@ -103,4 +103,8 @@ kubectl get pods --namespace=dev  # Success
 # Test accessing PROD namespace (should succeed)
 kubectl get pods --namespace=prod  # Success
 
+#for pod creation and testing
+kubectl apply -f pod.yaml -n prod
+
+
 
